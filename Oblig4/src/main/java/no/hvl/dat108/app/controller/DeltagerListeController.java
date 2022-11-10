@@ -36,6 +36,7 @@ public class DeltagerListeController {
 		
 	@Autowired
 	private DeltagerService aService;
+	private DeltagerService dService;
 	
 	@GetMapping("/${app.url.deltagerliste}")
 	public String visDeltagere(HttpSession session, RedirectAttributes ra) {

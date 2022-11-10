@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html lang="no">
     <head>
@@ -12,19 +12,19 @@
         <form id="paameldingSkjema" action="http://localhost:8080/paameldingSkjema" method="post">
             <fieldset>
                 <label for="fornavn">Fornavn</label>
-                <input id="fornavn" name="fornavn" title="Skriv inn fornavnet ditt" placeholder="Fyll inn fornavn" required="required" type="text" value=""/>
+                <input id="fornavn" name="fornavn" title="Skriv inn fornavnet ditt" placeholder="Fyll inn fornavn" required="required" type="text" />
                 <br>
                 <label for="etternavn">Etternavn</label>
-                <input id="etternavn" name="etternavn" title="Skriv inn etternavnet ditt" placeholder="Fyll inn etternavn" required="required" type="text" value=""/>
+                <input id="etternavn" name="etternavn" title="Skriv inn etternavnet ditt" placeholder="Fyll inn etternavn" required="required" type="text" />
                 <br>
                 <label for="mobil">Mobilnummer</label>
-                <input id="mobil" name="mobil" title="Skriv inn ditt mobilnummer" placeholder="Fyll inn mobilnummeret ditt" required="required" type="text" value=""/>
+                <input id="mobil" name="mobil" title="Skriv inn ditt mobilnummer" placeholder="Fyll inn mobilnummeret ditt" required="required" type="text" />
                 <br>
                 <label for="passord">Passord</label>
-                <input id="passord" name="passord" title="Lag Passord" placeholder="Lag passord" required="required" type="password" value="" />
+                <input id="passord" name="passord" title="Lag Passord" placeholder="Lag passord" required="required" type="password" />
                 <br>
                 <label for="passordRepetert">Repeter passord</label>
-                <input id="passordRepetert" name="passordRepetert" title="repeterPassord" placeholder="Repeter passord" required="required" type="password" value=""/>
+                <input id="passordRepetert" name="passordRepetert" title="repeterPassord" placeholder="Repeter passord" required="required" type="password" />
                 <br>
                 <label for="kjonn">Kjønn</label>
                 <input id="kjonn1" name="kjonn" checked="checked" type="radio" value="mann"/>mann

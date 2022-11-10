@@ -17,6 +17,8 @@ public class LoginUtil {
 		session.setAttribute("mobil", mobil);
 		session.setAttribute("passord", passord);
 		
+		
+		
 	}
 	
 	public static boolean erBrukerInnlogget(HttpSession session) {

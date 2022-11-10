@@ -57,7 +57,11 @@ public class LoggInnController {
 			return "redirect:" + LOGIN_URL;
 		}
 		
+		
+		
 		LoginUtil.loggInnBruker(request, mobil, passord);
+		
+		
 		
 		return "redirect:" + deltagerListe;
 		

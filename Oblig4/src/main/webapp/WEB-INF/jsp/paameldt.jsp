@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,13 +11,13 @@ pageEncoding="UTF-8"%>
         <h2>Påmeldingsbekreftelse</h2>
             <p>Du er logget inn som:</p>
            <p>
-                <c:out value="${deltager.fornavn}"/>
+                <c:out value="${fornavn}"/>
                 <br>&nbsp; &nbsp; &nbsp;
-                <c:out value="${deltager.etternavn}" />
+                <c:out value="${etternavn}" />
                 <br>&nbsp; &nbsp; &nbsp;
-                <c:out value="${deltager.mobil}" />
+                <c:out value="${mobil}" />
                 <br>&nbsp; &nbsp; &nbsp;
-                <c:out value="${deltager.kjonn}" />
+                <c:out value="${kjonn}" />
 
 
 

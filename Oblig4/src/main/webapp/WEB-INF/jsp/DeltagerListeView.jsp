@@ -15,6 +15,7 @@
         <th>Lastname</th>
         <th>Phonenumber</th>
         <th>Gender</th>
+        <th>Form</th>
       </tr>
     </thead>
     <tbody>

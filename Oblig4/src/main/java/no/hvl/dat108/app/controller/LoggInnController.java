@@ -59,7 +59,7 @@ public class LoggInnController {
 		
 		
 		
-		LoginUtil.loggInnBruker(request, mobil, passord);
+		LoginUtil.loggInnBruker (request, mobil, passord);
 		
 		
 		

@@ -46,7 +46,7 @@ public class DeltagerListeController {
 			return "redirect: " + LOGIN_URL;	
 			
 		}
-		return "DeltagerListeView";
+		return "DeltagerListeView" ;
 	}
 	
 	
